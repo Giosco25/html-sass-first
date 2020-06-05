@@ -1,0 +1,12 @@
+$colore_titoli : #cc2340;
+$colore_paragrafi : #000000;
+$dimensione_testo : uppercase;
+h2,h3{
+    color:$colore_titoli;
+    font-weight: bold;
+    text-transform: $dimensione_testo;
+}
+p{
+    color:$colore_paragrafi;
+    font-size: 20px;
+}
